@@ -11,13 +11,13 @@ export default function Home() {
             draggable={false}
           />
 
-          {/* Instagram hotspot (MOBILE) - adjust if needed */}
+          {/* Instagram hotspot (MOBILE) */}
           <a
             href="https://instagram.com/itsniks.v"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"
-            className="absolute z-10 left-[60%] top-[34%] h-[120px] w-[120px]
+            className="absolute z-20 left-[60%] top-[34%] h-[120px] w-[120px]
                        -translate-x-1/2 -translate-y-1/2 cursor-pointer"
           >
             <span className="sr-only">Instagram</span>
@@ -33,13 +33,13 @@ export default function Home() {
             draggable={false}
           />
 
-          {/* Instagram hotspot (DESKTOP) - UPDATED for your new icon position */}
+          {/* Instagram hotspot (DESKTOP) - BIGGER so the whole icon is clickable */}
           <a
             href="https://instagram.com/itsniks.v"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"
-            className="absolute z-10 left-[74%] top-[52%] h-[110px] w-[110px]
+            className="absolute z-20 left-[74%] top-[52%] h-[160px] w-[160px]
                        -translate-x-1/2 -translate-y-1/2 cursor-pointer"
           >
             <span className="sr-only">Instagram</span>
