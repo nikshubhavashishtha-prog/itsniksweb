@@ -12,7 +12,7 @@ export default function Home() {
       <div className="absolute inset-0 z-0">
         {/* Mobile */}
         <img
-          src="/doodle-mobile.svg"
+          src="/doodle-mobile-v2.svg"
           alt="Mobile doodle"
           className="h-full w-full object-contain md:hidden pointer-events-none select-none"
           draggable={false}
